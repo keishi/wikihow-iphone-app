@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Title</key>
+	<string>Settings</string>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>Font Size</string>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Key</key>
+			<string>FontSize</string>
+			<key>Titles</key>
+			<array>
+				<string>Small</string>
+				<string>Medium</string>
+				<string>Big</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<string>fontSmall</string>
+				<string>fontMedium</string>
+				<string>fontBig</string>
+			</array>
+			<key>DefaultValue</key>
+			<string>fontSmall</string>
+		</dict>
+		<dict>
+			<key>Key</key>
+			<string>CacheLife</string>
+			<key>Title</key>
+			<string>Delete Cache After</string>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>DefaultValue</key>
+			<integer>0</integer>
+			<key>Titles</key>
+			<array>
+				<string>7 days</string>
+				<string>14 days</string>
+				<string>Never</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<integer>7</integer>
+				<integer>14</integer>
+				<integer>0</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>Key</key>
+			<string>EnableShake</string>
+			<key>Title</key>
+			<string>Enable Shake</string>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Key</key>
+			<string>OfflineSearch</string>
+			<key>Title</key>
+			<string>Offline Search</string>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+	</array>
+</dict>
+</plist>

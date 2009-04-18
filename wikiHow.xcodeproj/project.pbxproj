@@ -1,0 +1,1215 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		145400930F5127A20015AD29 /* libFlurry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 145400920F5127A20015AD29 /* libFlurry.a */; };
+		145401AB0F51400B0015AD29 /* StartButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 145401AA0F51400B0015AD29 /* StartButton.png */; };
+		145402DD0F5150480015AD29 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 145402DC0F5150480015AD29 /* README */; };
+		145403050F5234220015AD29 /* MissingIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 145403040F5234220015AD29 /* MissingIcon.png */; };
+		145404150F5237090015AD29 /* Deliver-a-Baby.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403BD0F5237080015AD29 /* Deliver-a-Baby.jpg */; };
+		145404160F5237090015AD29 /* Pick-a-Lock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403BE0F5237080015AD29 /* Pick-a-Lock.jpg */; };
+		145404170F5237090015AD29 /* Predict-the-Weather-Without-a-Forecast.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403BF0F5237080015AD29 /* Predict-the-Weather-Without-a-Forecast.jpg */; };
+		145404190F5237090015AD29 /* Handle-a-Dog-Attack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403C10F5237080015AD29 /* Handle-a-Dog-Attack.jpg */; };
+		1454041A0F5237090015AD29 /* Regain-Control-of-a-Spooked-Camel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403C20F5237080015AD29 /* Regain-Control-of-a-Spooked-Camel.jpg */; };
+		1454041B0F5237090015AD29 /* Remove-a-Tick.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403C30F5237080015AD29 /* Remove-a-Tick.jpg */; };
+		1454041C0F5237090015AD29 /* Provide-First-Aid-for-a-Broken-Bone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403C40F5237080015AD29 /* Provide-First-Aid-for-a-Broken-Bone.jpg */; };
+		1454041D0F5237090015AD29 /* Help-a-Choking-Victim.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403C50F5237080015AD29 /* Help-a-Choking-Victim.jpg */; };
+		1454041E0F5237090015AD29 /* Help-Someone-Who-Is-Having-a-Seizure.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403C60F5237080015AD29 /* Help-Someone-Who-Is-Having-a-Seizure.jpg */; };
+		1454041F0F5237090015AD29 /* Get-out-of-a-Car-That%27s-Hanging-over-a-Cliff.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403C70F5237080015AD29 /* Get-out-of-a-Car-That%27s-Hanging-over-a-Cliff.jpg */; };
+		145404200F5237090015AD29 /* Take-a-Punch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403C80F5237080015AD29 /* Take-a-Punch.jpg */; };
+		145404210F5237090015AD29 /* Tell-Time-Without-a-Clock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403C90F5237080015AD29 /* Tell-Time-Without-a-Clock.jpg */; };
+		145404220F5237090015AD29 /* Do-Basic-First-Aid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403CA0F5237080015AD29 /* Do-Basic-First-Aid.jpg */; };
+		145404230F5237090015AD29 /* Purify-Water.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403CB0F5237080015AD29 /* Purify-Water.jpg */; };
+		145404240F5237090015AD29 /* React-During-an-Earthquake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403CC0F5237080015AD29 /* React-During-an-Earthquake.jpg */; };
+		145404250F5237090015AD29 /* Report-an-Emergency.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403CD0F5237080015AD29 /* Report-an-Emergency.jpg */; };
+		145404260F5237090015AD29 /* Administer-First-Aid-to-a-Choking-Child.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403CE0F5237080015AD29 /* Administer-First-Aid-to-a-Choking-Child.jpg */; };
+		145404270F5237090015AD29 /* Administer-Adult-CPR-(Cardiopulmonary-Resuscitation).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403CF0F5237080015AD29 /* Administer-Adult-CPR-(Cardiopulmonary-Resuscitation).jpg */; };
+		145404280F5237090015AD29 /* Survive-an-Avalanche.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403D00F5237080015AD29 /* Survive-an-Avalanche.jpg */; };
+		145404290F5237090015AD29 /* Survive-an-Encounter-with-a-Crocodile-or-Alligator.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403D10F5237080015AD29 /* Survive-an-Encounter-with-a-Crocodile-or-Alligator.jpg */; };
+		1454042A0F5237090015AD29 /* Survive-in-the-Woods.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403D20F5237080015AD29 /* Survive-in-the-Woods.jpg */; };
+		1454042B0F5237090015AD29 /* Avoid-a-Rattlesnake-Attack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403D30F5237080015AD29 /* Avoid-a-Rattlesnake-Attack.jpg */; };
+		1454042C0F5237090015AD29 /* Survive-a-Riot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403D40F5237080015AD29 /* Survive-a-Riot.jpg */; };
+		1454042D0F5237090015AD29 /* Rescue-Someone-Who-Has-Fallen-Through-Ice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403D50F5237080015AD29 /* Rescue-Someone-Who-Has-Fallen-Through-Ice.jpg */; };
+		1454042E0F5237090015AD29 /* Survive-a-School-or-Workplace-Shooting.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403D60F5237080015AD29 /* Survive-a-School-or-Workplace-Shooting.jpg */; };
+		1454042F0F5237090015AD29 /* Know-When-Ice-is-Safe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403D70F5237080015AD29 /* Know-When-Ice-is-Safe.jpg */; };
+		145404300F5237090015AD29 /* Kick-Down-a-Door.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403D80F5237080015AD29 /* Kick-Down-a-Door.jpg */; };
+		145404310F5237090015AD29 /* Calculate-the-Distance-from-Lightning.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403D90F5237080015AD29 /* Calculate-the-Distance-from-Lightning.jpg */; };
+		145404320F5237090015AD29 /* Survive-a-Riptide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403DA0F5237080015AD29 /* Survive-a-Riptide.jpg */; };
+		145404330F5237090015AD29 /* Run-Up-and-Over-a-Wall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403DB0F5237080015AD29 /* Run-Up-and-Over-a-Wall.jpg */; };
+		145404340F5237090015AD29 /* Escape-from-a-Bear.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403DC0F5237080015AD29 /* Escape-from-a-Bear.jpg */; };
+		145404350F5237090015AD29 /* Escape-from-a-Sinking-Car.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403DD0F5237080015AD29 /* Escape-from-a-Sinking-Car.jpg */; };
+		145404360F5237090015AD29 /* Escape-a-Minefield.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403DE0F5237080015AD29 /* Escape-a-Minefield.jpg */; };
+		145404370F5237090015AD29 /* Build-an-Igloo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403DF0F5237080015AD29 /* Build-an-Igloo.jpg */; };
+		145404380F5237090015AD29 /* Safely-Swim-with-Piranhas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403E00F5237080015AD29 /* Safely-Swim-with-Piranhas.jpg */; };
+		145404390F5237090015AD29 /* Do-a-Fireman%27s-Carry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403E10F5237080015AD29 /* Do-a-Fireman%27s-Carry.jpg */; };
+		1454043A0F5237090015AD29 /* Calculate-the-Distance-to-the-Horizon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403E20F5237080015AD29 /* Calculate-the-Distance-to-the-Horizon.jpg */; };
+		1454043B0F5237090015AD29 /* Find-True-North-Without-a-Compass.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403E30F5237080015AD29 /* Find-True-North-Without-a-Compass.jpg */; };
+		1454043C0F5237090015AD29 /* Do-CPR-on-a-Baby.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403E40F5237080015AD29 /* Do-CPR-on-a-Baby.jpg */; };
+		1454043D0F5237090015AD29 /* Get-Emergency-Drinking-Water-from-a-Water-Heater.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403E50F5237080015AD29 /* Get-Emergency-Drinking-Water-from-a-Water-Heater.jpg */; };
+		1454043E0F5237090015AD29 /* Attend-to-a-Stab-Wound.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403E60F5237080015AD29 /* Attend-to-a-Stab-Wound.jpg */; };
+		1454043F0F5237090015AD29 /* Get-out-of-Quicksand.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403E70F5237080015AD29 /* Get-out-of-Quicksand.jpg */; };
+		145404400F5237090015AD29 /* Identify-if-Someone-Had-a-Stroke.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403E80F5237080015AD29 /* Identify-if-Someone-Had-a-Stroke.jpg */; };
+		145404410F5237090015AD29 /* Fix-a-Dislocated-Shoulder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403E90F5237080015AD29 /* Fix-a-Dislocated-Shoulder.jpg */; };
+		145404420F5237090015AD29 /* Open-a-Bottle-with-a-Ring.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403EA0F5237080015AD29 /* Open-a-Bottle-with-a-Ring.jpg */; };
+		145404430F5237090015AD29 /* Survive-a-Gas-Attack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403EB0F5237080015AD29 /* Survive-a-Gas-Attack.jpg */; };
+		145404440F5237090015AD29 /* Treat-a-Concussion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403EC0F5237080015AD29 /* Treat-a-Concussion.jpg */; };
+		145404450F5237090015AD29 /* Perform-the-Heimlich-Maneuver.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403ED0F5237080015AD29 /* Perform-the-Heimlich-Maneuver.jpg */; };
+		145404460F5237090015AD29 /* Start-a-Fire-with-Sticks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403EE0F5237080015AD29 /* Start-a-Fire-with-Sticks.jpg */; };
+		145404470F5237090015AD29 /* Stop-a-Car-with-No-Brakes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403EF0F5237080015AD29 /* Stop-a-Car-with-No-Brakes.jpg */; };
+		145404480F5237090015AD29 /* Stop-a-Nose-Bleed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403F00F5237080015AD29 /* Stop-a-Nose-Bleed.jpg */; };
+		145404490F5237090015AD29 /* Survive-a-Dust-Storm-or-Sandstorm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403F10F5237080015AD29 /* Survive-a-Dust-Storm-or-Sandstorm.jpg */; };
+		1454044A0F5237090015AD29 /* Escape-From-the-Trunk-of-a-Car.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403F20F5237080015AD29 /* Escape-From-the-Trunk-of-a-Car.jpg */; };
+		1454044B0F5237090015AD29 /* Change-a-Tire.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403F30F5237080015AD29 /* Change-a-Tire.jpg */; };
+		1454044C0F5237090015AD29 /* Survive-a-Tsunami.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403F40F5237080015AD29 /* Survive-a-Tsunami.jpg */; };
+		1454044D0F5237090015AD29 /* Treat-a-Puncture-Wound.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403F50F5237080015AD29 /* Treat-a-Puncture-Wound.jpg */; };
+		1454044E0F5237090015AD29 /* Prepare-for-a-Hurricane.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403F60F5237080015AD29 /* Prepare-for-a-Hurricane.jpg */; };
+		1454044F0F5237090015AD29 /* Land-an-Airplane-in-an-Emergency.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403F70F5237080015AD29 /* Land-an-Airplane-in-an-Emergency.jpg */; };
+		145404500F5237090015AD29 /* Survive-a-Fall-Through-Ice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403F80F5237080015AD29 /* Survive-a-Fall-Through-Ice.jpg */; };
+		145404510F5237090015AD29 /* Stop-Bleeding.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403F90F5237080015AD29 /* Stop-Bleeding.jpg */; };
+		145404520F5237090015AD29 /* Jump-Start-a-Car.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403FA0F5237080015AD29 /* Jump-Start-a-Car.jpg */; };
+		145404530F5237090015AD29 /* Survive-a-Long-Fall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403FB0F5237080015AD29 /* Survive-a-Long-Fall.jpg */; };
+		145404540F5237090015AD29 /* Survive-a-Plane-Crash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403FC0F5237080015AD29 /* Survive-a-Plane-Crash.jpg */; };
+		145404550F5237090015AD29 /* Build-a-Fire.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403FD0F5237080015AD29 /* Build-a-Fire.jpg */; };
+		145404560F5237090015AD29 /* Perform-the-Heimlich-Maneuver-on-Yourself.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403FE0F5237080015AD29 /* Perform-the-Heimlich-Maneuver-on-Yourself.jpg */; };
+		145404570F5237090015AD29 /* Survive-a-Shark-Attack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145403FF0F5237080015AD29 /* Survive-a-Shark-Attack.jpg */; };
+		145404580F5237090015AD29 /* Open-a-Door-with-a-Credit-Card.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145404000F5237080015AD29 /* Open-a-Door-with-a-Credit-Card.jpg */; };
+		145404590F5237090015AD29 /* Make-Water-in-the-Desert.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145404010F5237080015AD29 /* Make-Water-in-the-Desert.jpg */; };
+		1454045A0F5237090015AD29 /* Survive-a-Hotel-Fire.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145404020F5237080015AD29 /* Survive-a-Hotel-Fire.jpg */; };
+		1454045B0F5237090015AD29 /* Open-a-Wine-Bottle-Without-a-Corkscrew.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145404030F5237090015AD29 /* Open-a-Wine-Bottle-Without-a-Corkscrew.jpg */; };
+		1454045C0F5237090015AD29 /* Treat-Road-Rash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145404040F5237090015AD29 /* Treat-Road-Rash.jpg */; };
+		1454045D0F5237090015AD29 /* Treat-Poison-Ivy-and-Poison-Oak.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145404050F5237090015AD29 /* Treat-Poison-Ivy-and-Poison-Oak.jpg */; };
+		1454045E0F5237090015AD29 /* Make-a-Tight-Turn-Quickly-in-a-Car.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145404060F5237090015AD29 /* Make-a-Tight-Turn-Quickly-in-a-Car.jpg */; };
+		1454045F0F5237090015AD29 /* Treat-a-Bullet-Wound.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145404070F5237090015AD29 /* Treat-a-Bullet-Wound.jpg */; };
+		145404600F5237090015AD29 /* Treat-a-Snake-Bite.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145404080F5237090015AD29 /* Treat-a-Snake-Bite.jpg */; };
+		145404610F5237090015AD29 /* Survive-a-Dirty-Bomb-(Radiological-Dispersion-Device).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145404090F5237090015AD29 /* Survive-a-Dirty-Bomb-(Radiological-Dispersion-Device).jpg */; };
+		145404620F5237090015AD29 /* Survive-a-Car-Accident.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1454040A0F5237090015AD29 /* Survive-a-Car-Accident.jpg */; };
+		145404630F5237090015AD29 /* Treat-Shock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1454040B0F5237090015AD29 /* Treat-Shock.jpg */; };
+		145404640F5237090015AD29 /* Treat-a-Poisoning-Victim.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1454040C0F5237090015AD29 /* Treat-a-Poisoning-Victim.jpg */; };
+		145404650F5237090015AD29 /* Use-a-Fire-Extinguisher.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1454040D0F5237090015AD29 /* Use-a-Fire-Extinguisher.jpg */; };
+		145404660F5237090015AD29 /* Survive-a-Nuclear-Attack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1454040E0F5237090015AD29 /* Survive-a-Nuclear-Attack.jpg */; };
+		145404670F5237090015AD29 /* Treat-a-Spinal-Injury-Victim.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1454040F0F5237090015AD29 /* Treat-a-Spinal-Injury-Victim.jpg */; };
+		145404680F5237090015AD29 /* Open-a-Beer-Bottle-with-a-Dollar-Bill.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145404100F5237090015AD29 /* Open-a-Beer-Bottle-with-a-Dollar-Bill.jpg */; };
+		145404690F5237090015AD29 /* Treat-Hypothermia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145404110F5237090015AD29 /* Treat-Hypothermia.jpg */; };
+		1454046A0F5237090015AD29 /* Treat-Frostbite.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145404120F5237090015AD29 /* Treat-Frostbite.jpg */; };
+		1454046B0F5237090015AD29 /* Treat-a-Bee-Sting.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145404130F5237090015AD29 /* Treat-a-Bee-Sting.jpg */; };
+		1454046C0F5237090015AD29 /* Treat-a-Burn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 145404140F5237090015AD29 /* Treat-a-Burn.jpg */; };
+		1454048D0F52819F0015AD29 /* ShakeIndicator.png in Resources */ = {isa = PBXBuildFile; fileRef = 1454048C0F52819F0015AD29 /* ShakeIndicator.png */; };
+		14AECA680F596421006123F3 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AECA670F596421006123F3 /* UIImage+Resize.m */; };
+		14E2801F0F5631E200832698 /* Get-Your-Car-Out-of-the-Snow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14E2801E0F5631E200832698 /* Get-Your-Car-Out-of-the-Snow.jpg */; };
+		1D3623260D0F684500981E51 /* wikiHowAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* wikiHowAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		83EF3D330F8CE4D6005B22CB /* WHNetworkAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EF3D320F8CE4D6005B22CB /* WHNetworkAlertView.m */; };
+		83EF3D360F8CE4F7005B22CB /* WHSearchNetworkAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EF3D350F8CE4F7005B22CB /* WHSearchNetworkAlertView.m */; };
+		842B7F9A0F505F3600714A3A /* Credits.txt in Resources */ = {isa = PBXBuildFile; fileRef = 842B7F990F505F3600714A3A /* Credits.txt */; };
+		84480F850F38AD1900A8CEAA /* UITabBarController+DelegatedRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 84480F210F38AD1900A8CEAA /* UITabBarController+DelegatedRotation.m */; };
+		84480F860F38AD1900A8CEAA /* WHSearchXMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 84480F230F38AD1900A8CEAA /* WHSearchXMLReader.m */; };
+		84480F870F38AD1900A8CEAA /* WHImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84480F260F38AD1900A8CEAA /* WHImageViewController.m */; };
+		84480F880F38AD1900A8CEAA /* WHNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84480F280F38AD1900A8CEAA /* WHNavigationController.m */; };
+		84480F890F38AD1900A8CEAA /* WHSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84480F2A0F38AD1900A8CEAA /* WHSearchViewController.m */; };
+		84480F8A0F38AD1900A8CEAA /* WHArticleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84480F2C0F38AD1900A8CEAA /* WHArticleViewController.m */; };
+		84480F8B0F38AD1900A8CEAA /* WHFeaturedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84480F2E0F38AD1900A8CEAA /* WHFeaturedViewController.m */; };
+		84480F8C0F38AD1900A8CEAA /* WHSuggestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84480F300F38AD1900A8CEAA /* WHSuggestionViewController.m */; };
+		84480F8D0F38AD1900A8CEAA /* WHSurvivalKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84480F320F38AD1900A8CEAA /* WHSurvivalKitViewController.m */; };
+		84480F8E0F38AD1900A8CEAA /* WHBookmarksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84480F340F38AD1900A8CEAA /* WHBookmarksViewController.m */; };
+		84480F8F0F38AD1900A8CEAA /* WHPreferenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84480F360F38AD1900A8CEAA /* WHPreferenceViewController.m */; };
+		84480F900F38AD1900A8CEAA /* WHMultiValuePreferenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84480F380F38AD1900A8CEAA /* WHMultiValuePreferenceViewController.m */; };
+		84480F910F38AD1900A8CEAA /* WHAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84480F3A0F38AD1900A8CEAA /* WHAboutViewController.m */; };
+		84480F920F38AD1900A8CEAA /* WHTipsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84480F3C0F38AD1900A8CEAA /* WHTipsViewController.m */; };
+		84480F930F38AD1900A8CEAA /* ABTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84480F3F0F38AD1900A8CEAA /* ABTableViewCell.m */; };
+		84480F940F38AD1900A8CEAA /* WHSearchField.m in Sources */ = {isa = PBXBuildFile; fileRef = 84480F410F38AD1900A8CEAA /* WHSearchField.m */; };
+		84480F950F38AD1900A8CEAA /* WHImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84480F430F38AD1900A8CEAA /* WHImageScrollView.m */; };
+		84480F960F38AD1900A8CEAA /* WHTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84480F450F38AD1900A8CEAA /* WHTableViewCell.m */; };
+		84480F970F38AD1900A8CEAA /* WHLoadingIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 84480F470F38AD1900A8CEAA /* WHLoadingIndicator.m */; };
+		84480F980F38AD1900A8CEAA /* WHMultiValuePreferenceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84480F490F38AD1900A8CEAA /* WHMultiValuePreferenceCell.m */; };
+		84480F990F38AD1900A8CEAA /* WHArticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 84480F4C0F38AD1900A8CEAA /* WHArticle.m */; };
+		84480F9A0F38AD1900A8CEAA /* WHArticleCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 84480F4E0F38AD1900A8CEAA /* WHArticleCache.m */; };
+		84480F9B0F38AD1900A8CEAA /* WHBookmark.m in Sources */ = {isa = PBXBuildFile; fileRef = 84480F500F38AD1900A8CEAA /* WHBookmark.m */; };
+		84480F9C0F38AD1900A8CEAA /* WHArticlePreloadedCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 84480F520F38AD1900A8CEAA /* WHArticlePreloadedCache.m */; };
+		84480F9D0F38AD1900A8CEAA /* WHBookmarksDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 84480F540F38AD1900A8CEAA /* WHBookmarksDataSource.m */; };
+		84480F9E0F38AD1900A8CEAA /* WHToggleSwitchPreference.m in Sources */ = {isa = PBXBuildFile; fileRef = 84480F560F38AD1900A8CEAA /* WHToggleSwitchPreference.m */; };
+		84480F9F0F38AD1900A8CEAA /* SoundEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 84480F5A0F38AD1900A8CEAA /* SoundEffect.m */; };
+		84480FA00F38AD1900A8CEAA /* CXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 84480F5D0F38AD1900A8CEAA /* CXMLDocument.m */; };
+		84480FA10F38AD1900A8CEAA /* CXMLDocument_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 84480F5F0F38AD1900A8CEAA /* CXMLDocument_PrivateExtensions.m */; };
+		84480FA20F38AD1900A8CEAA /* CXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 84480F610F38AD1900A8CEAA /* CXMLElement.m */; };
+		84480FA30F38AD1900A8CEAA /* CXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 84480F630F38AD1900A8CEAA /* CXMLNode.m */; };
+		84480FA40F38AD1900A8CEAA /* CXMLNode_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 84480F650F38AD1900A8CEAA /* CXMLNode_PrivateExtensions.m */; };
+		84480FA50F38AD1900A8CEAA /* CXMLNode_XPathExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 84480F670F38AD1900A8CEAA /* CXMLNode_XPathExtensions.m */; };
+		84480FA60F38AD1900A8CEAA /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 84480F6C0F38AD1900A8CEAA /* GTMNSString+HTML.m */; };
+		84480FA70F38AD1900A8CEAA /* KCLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 84480F6F0F38AD1900A8CEAA /* KCLogger.m */; };
+		84480FA80F38AD1900A8CEAA /* KCHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 84480F720F38AD1900A8CEAA /* KCHTTPClient.m */; };
+		84480FA90F38AD1900A8CEAA /* NSString+HTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 84480F740F38AD1900A8CEAA /* NSString+HTTPClient.m */; };
+		84480FAA0F38AD1900A8CEAA /* NSString+wikiHow.m in Sources */ = {isa = PBXBuildFile; fileRef = 84480F770F38AD1900A8CEAA /* NSString+wikiHow.m */; };
+		84480FAB0F38AD1900A8CEAA /* NSURL+wikiHow.m in Sources */ = {isa = PBXBuildFile; fileRef = 84480F790F38AD1900A8CEAA /* NSURL+wikiHow.m */; };
+		84480FAC0F38AD1900A8CEAA /* KCNetworkActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 84480F7C0F38AD1900A8CEAA /* KCNetworkActivityIndicator.m */; };
+		84480FAD0F38AD1900A8CEAA /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 84480F800F38AD1900A8CEAA /* NSObject+SBJSON.m */; };
+		84480FAE0F38AD1900A8CEAA /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 84480F820F38AD1900A8CEAA /* NSString+SBJSON.m */; };
+		84480FAF0F38AD1900A8CEAA /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 84480F840F38AD1900A8CEAA /* SBJSON.m */; };
+		84480FBD0F38AD5400A8CEAA /* TOSSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 84480FB30F38AD5400A8CEAA /* TOSSelected.png */; };
+		84480FBE0F38AD5400A8CEAA /* TOS.png in Resources */ = {isa = PBXBuildFile; fileRef = 84480FB40F38AD5400A8CEAA /* TOS.png */; };
+		84480FBF0F38AD5400A8CEAA /* About.png in Resources */ = {isa = PBXBuildFile; fileRef = 84480FB50F38AD5400A8CEAA /* About.png */; };
+		84480FC00F38AD5400A8CEAA /* SurvivalKit.png in Resources */ = {isa = PBXBuildFile; fileRef = 84480FB60F38AD5400A8CEAA /* SurvivalKit.png */; };
+		84480FC10F38AD5400A8CEAA /* wikiHowTitle.png in Resources */ = {isa = PBXBuildFile; fileRef = 84480FB70F38AD5400A8CEAA /* wikiHowTitle.png */; };
+		84480FC20F38AD5400A8CEAA /* SearchField.png in Resources */ = {isa = PBXBuildFile; fileRef = 84480FB80F38AD5400A8CEAA /* SearchField.png */; };
+		84480FC30F38AD5400A8CEAA /* MagnifyingGlass.png in Resources */ = {isa = PBXBuildFile; fileRef = 84480FB90F38AD5400A8CEAA /* MagnifyingGlass.png */; };
+		84480FC40F38AD5400A8CEAA /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 84480FBA0F38AD5400A8CEAA /* Settings.png */; };
+		84480FC60F38AD5400A8CEAA /* Category.png in Resources */ = {isa = PBXBuildFile; fileRef = 84480FBC0F38AD5400A8CEAA /* Category.png */; };
+		84480FCC0F38ADA700A8CEAA /* cache.db in Resources */ = {isa = PBXBuildFile; fileRef = 84480FC70F38ADA700A8CEAA /* cache.db */; };
+		84480FCE0F38ADA700A8CEAA /* template.html in Resources */ = {isa = PBXBuildFile; fileRef = 84480FC90F38ADA700A8CEAA /* template.html */; };
+		84480FCF0F38ADA700A8CEAA /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84480FCA0F38ADA700A8CEAA /* Icon.png */; };
+		84480FD00F38ADA700A8CEAA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 84480FCB0F38ADA700A8CEAA /* Default.png */; };
+		84480FD20F38ADAF00A8CEAA /* Settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84480FD10F38ADAF00A8CEAA /* Settings.plist */; };
+		84480FDF0F38AE7E00A8CEAA /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 84480FDD0F38AE7E00A8CEAA /* sqlite3.c */; };
+		84480FFA0F38AEC100A8CEAA /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84480FF90F38AEC100A8CEAA /* libxml2.2.dylib */; };
+		84480FFC0F38AED200A8CEAA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84480FFB0F38AED200A8CEAA /* AudioToolbox.framework */; };
+		844810000F38AEDC00A8CEAA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84480FFF0F38AEDC00A8CEAA /* QuartzCore.framework */; };
+		845C5E0C0F43B33B00EA1042 /* preloaded.db in Resources */ = {isa = PBXBuildFile; fileRef = 845C5E0B0F43B33B00EA1042 /* preloaded.db */; };
+		845C5E0E0F43B34A00EA1042 /* Tips.png in Resources */ = {isa = PBXBuildFile; fileRef = 845C5E0D0F43B34A00EA1042 /* Tips.png */; };
+		846EB2C40F38B22300C3A460 /* shake.aif in Resources */ = {isa = PBXBuildFile; fileRef = 846EB2C30F38B22300C3A460 /* shake.aif */; };
+		846EB2CE0F38B28800C3A460 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 846EB2CD0F38B28800C3A460 /* MainWindow.xib */; };
+		846EB2EF0F38BAB200C3A460 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 846EB2EE0F38BAB200C3A460 /* Entitlements.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		145400910F5127A20015AD29 /* FlurryAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAPI.h; sourceTree = "<group>"; };
+		145400920F5127A20015AD29 /* libFlurry.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry.a; sourceTree = "<group>"; };
+		145401AA0F51400B0015AD29 /* StartButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StartButton.png; sourceTree = "<group>"; };
+		145402DC0F5150480015AD29 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		145403040F5234220015AD29 /* MissingIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MissingIcon.png; sourceTree = "<group>"; };
+		145403BD0F5237080015AD29 /* Deliver-a-Baby.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Deliver-a-Baby.jpg"; sourceTree = "<group>"; };
+		145403BE0F5237080015AD29 /* Pick-a-Lock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pick-a-Lock.jpg"; sourceTree = "<group>"; };
+		145403BF0F5237080015AD29 /* Predict-the-Weather-Without-a-Forecast.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Predict-the-Weather-Without-a-Forecast.jpg"; sourceTree = "<group>"; };
+		145403C10F5237080015AD29 /* Handle-a-Dog-Attack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Handle-a-Dog-Attack.jpg"; sourceTree = "<group>"; };
+		145403C20F5237080015AD29 /* Regain-Control-of-a-Spooked-Camel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Regain-Control-of-a-Spooked-Camel.jpg"; sourceTree = "<group>"; };
+		145403C30F5237080015AD29 /* Remove-a-Tick.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Remove-a-Tick.jpg"; sourceTree = "<group>"; };
+		145403C40F5237080015AD29 /* Provide-First-Aid-for-a-Broken-Bone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Provide-First-Aid-for-a-Broken-Bone.jpg"; sourceTree = "<group>"; };
+		145403C50F5237080015AD29 /* Help-a-Choking-Victim.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Help-a-Choking-Victim.jpg"; sourceTree = "<group>"; };
+		145403C60F5237080015AD29 /* Help-Someone-Who-Is-Having-a-Seizure.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Help-Someone-Who-Is-Having-a-Seizure.jpg"; sourceTree = "<group>"; };
+		145403C70F5237080015AD29 /* Get-out-of-a-Car-That%27s-Hanging-over-a-Cliff.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Get-out-of-a-Car-That%27s-Hanging-over-a-Cliff.jpg"; sourceTree = "<group>"; };
+		145403C80F5237080015AD29 /* Take-a-Punch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Take-a-Punch.jpg"; sourceTree = "<group>"; };
+		145403C90F5237080015AD29 /* Tell-Time-Without-a-Clock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tell-Time-Without-a-Clock.jpg"; sourceTree = "<group>"; };
+		145403CA0F5237080015AD29 /* Do-Basic-First-Aid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Do-Basic-First-Aid.jpg"; sourceTree = "<group>"; };
+		145403CB0F5237080015AD29 /* Purify-Water.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Purify-Water.jpg"; sourceTree = "<group>"; };
+		145403CC0F5237080015AD29 /* React-During-an-Earthquake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "React-During-an-Earthquake.jpg"; sourceTree = "<group>"; };
+		145403CD0F5237080015AD29 /* Report-an-Emergency.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Report-an-Emergency.jpg"; sourceTree = "<group>"; };
+		145403CE0F5237080015AD29 /* Administer-First-Aid-to-a-Choking-Child.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Administer-First-Aid-to-a-Choking-Child.jpg"; sourceTree = "<group>"; };
+		145403CF0F5237080015AD29 /* Administer-Adult-CPR-(Cardiopulmonary-Resuscitation).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Administer-Adult-CPR-(Cardiopulmonary-Resuscitation).jpg"; sourceTree = "<group>"; };
+		145403D00F5237080015AD29 /* Survive-an-Avalanche.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Survive-an-Avalanche.jpg"; sourceTree = "<group>"; };
+		145403D10F5237080015AD29 /* Survive-an-Encounter-with-a-Crocodile-or-Alligator.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Survive-an-Encounter-with-a-Crocodile-or-Alligator.jpg"; sourceTree = "<group>"; };
+		145403D20F5237080015AD29 /* Survive-in-the-Woods.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Survive-in-the-Woods.jpg"; sourceTree = "<group>"; };
+		145403D30F5237080015AD29 /* Avoid-a-Rattlesnake-Attack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Avoid-a-Rattlesnake-Attack.jpg"; sourceTree = "<group>"; };
+		145403D40F5237080015AD29 /* Survive-a-Riot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Survive-a-Riot.jpg"; sourceTree = "<group>"; };
+		145403D50F5237080015AD29 /* Rescue-Someone-Who-Has-Fallen-Through-Ice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Rescue-Someone-Who-Has-Fallen-Through-Ice.jpg"; sourceTree = "<group>"; };
+		145403D60F5237080015AD29 /* Survive-a-School-or-Workplace-Shooting.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Survive-a-School-or-Workplace-Shooting.jpg"; sourceTree = "<group>"; };
+		145403D70F5237080015AD29 /* Know-When-Ice-is-Safe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Know-When-Ice-is-Safe.jpg"; sourceTree = "<group>"; };
+		145403D80F5237080015AD29 /* Kick-Down-a-Door.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Kick-Down-a-Door.jpg"; sourceTree = "<group>"; };
+		145403D90F5237080015AD29 /* Calculate-the-Distance-from-Lightning.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Calculate-the-Distance-from-Lightning.jpg"; sourceTree = "<group>"; };
+		145403DA0F5237080015AD29 /* Survive-a-Riptide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Survive-a-Riptide.jpg"; sourceTree = "<group>"; };
+		145403DB0F5237080015AD29 /* Run-Up-and-Over-a-Wall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Run-Up-and-Over-a-Wall.jpg"; sourceTree = "<group>"; };
+		145403DC0F5237080015AD29 /* Escape-from-a-Bear.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Escape-from-a-Bear.jpg"; sourceTree = "<group>"; };
+		145403DD0F5237080015AD29 /* Escape-from-a-Sinking-Car.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Escape-from-a-Sinking-Car.jpg"; sourceTree = "<group>"; };
+		145403DE0F5237080015AD29 /* Escape-a-Minefield.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Escape-a-Minefield.jpg"; sourceTree = "<group>"; };
+		145403DF0F5237080015AD29 /* Build-an-Igloo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Build-an-Igloo.jpg"; sourceTree = "<group>"; };
+		145403E00F5237080015AD29 /* Safely-Swim-with-Piranhas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Safely-Swim-with-Piranhas.jpg"; sourceTree = "<group>"; };
+		145403E10F5237080015AD29 /* Do-a-Fireman%27s-Carry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Do-a-Fireman%27s-Carry.jpg"; sourceTree = "<group>"; };
+		145403E20F5237080015AD29 /* Calculate-the-Distance-to-the-Horizon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Calculate-the-Distance-to-the-Horizon.jpg"; sourceTree = "<group>"; };
+		145403E30F5237080015AD29 /* Find-True-North-Without-a-Compass.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Find-True-North-Without-a-Compass.jpg"; sourceTree = "<group>"; };
+		145403E40F5237080015AD29 /* Do-CPR-on-a-Baby.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Do-CPR-on-a-Baby.jpg"; sourceTree = "<group>"; };
+		145403E50F5237080015AD29 /* Get-Emergency-Drinking-Water-from-a-Water-Heater.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Get-Emergency-Drinking-Water-from-a-Water-Heater.jpg"; sourceTree = "<group>"; };
+		145403E60F5237080015AD29 /* Attend-to-a-Stab-Wound.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Attend-to-a-Stab-Wound.jpg"; sourceTree = "<group>"; };
+		145403E70F5237080015AD29 /* Get-out-of-Quicksand.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Get-out-of-Quicksand.jpg"; sourceTree = "<group>"; };
+		145403E80F5237080015AD29 /* Identify-if-Someone-Had-a-Stroke.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Identify-if-Someone-Had-a-Stroke.jpg"; sourceTree = "<group>"; };
+		145403E90F5237080015AD29 /* Fix-a-Dislocated-Shoulder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Fix-a-Dislocated-Shoulder.jpg"; sourceTree = "<group>"; };
+		145403EA0F5237080015AD29 /* Open-a-Bottle-with-a-Ring.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Open-a-Bottle-with-a-Ring.jpg"; sourceTree = "<group>"; };
+		145403EB0F5237080015AD29 /* Survive-a-Gas-Attack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Survive-a-Gas-Attack.jpg"; sourceTree = "<group>"; };
+		145403EC0F5237080015AD29 /* Treat-a-Concussion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Treat-a-Concussion.jpg"; sourceTree = "<group>"; };
+		145403ED0F5237080015AD29 /* Perform-the-Heimlich-Maneuver.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Perform-the-Heimlich-Maneuver.jpg"; sourceTree = "<group>"; };
+		145403EE0F5237080015AD29 /* Start-a-Fire-with-Sticks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Start-a-Fire-with-Sticks.jpg"; sourceTree = "<group>"; };
+		145403EF0F5237080015AD29 /* Stop-a-Car-with-No-Brakes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Stop-a-Car-with-No-Brakes.jpg"; sourceTree = "<group>"; };
+		145403F00F5237080015AD29 /* Stop-a-Nose-Bleed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Stop-a-Nose-Bleed.jpg"; sourceTree = "<group>"; };
+		145403F10F5237080015AD29 /* Survive-a-Dust-Storm-or-Sandstorm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Survive-a-Dust-Storm-or-Sandstorm.jpg"; sourceTree = "<group>"; };
+		145403F20F5237080015AD29 /* Escape-From-the-Trunk-of-a-Car.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Escape-From-the-Trunk-of-a-Car.jpg"; sourceTree = "<group>"; };
+		145403F30F5237080015AD29 /* Change-a-Tire.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Change-a-Tire.jpg"; sourceTree = "<group>"; };
+		145403F40F5237080015AD29 /* Survive-a-Tsunami.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Survive-a-Tsunami.jpg"; sourceTree = "<group>"; };
+		145403F50F5237080015AD29 /* Treat-a-Puncture-Wound.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Treat-a-Puncture-Wound.jpg"; sourceTree = "<group>"; };
+		145403F60F5237080015AD29 /* Prepare-for-a-Hurricane.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Prepare-for-a-Hurricane.jpg"; sourceTree = "<group>"; };
+		145403F70F5237080015AD29 /* Land-an-Airplane-in-an-Emergency.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Land-an-Airplane-in-an-Emergency.jpg"; sourceTree = "<group>"; };
+		145403F80F5237080015AD29 /* Survive-a-Fall-Through-Ice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Survive-a-Fall-Through-Ice.jpg"; sourceTree = "<group>"; };
+		145403F90F5237080015AD29 /* Stop-Bleeding.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Stop-Bleeding.jpg"; sourceTree = "<group>"; };
+		145403FA0F5237080015AD29 /* Jump-Start-a-Car.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Jump-Start-a-Car.jpg"; sourceTree = "<group>"; };
+		145403FB0F5237080015AD29 /* Survive-a-Long-Fall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Survive-a-Long-Fall.jpg"; sourceTree = "<group>"; };
+		145403FC0F5237080015AD29 /* Survive-a-Plane-Crash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Survive-a-Plane-Crash.jpg"; sourceTree = "<group>"; };
+		145403FD0F5237080015AD29 /* Build-a-Fire.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Build-a-Fire.jpg"; sourceTree = "<group>"; };
+		145403FE0F5237080015AD29 /* Perform-the-Heimlich-Maneuver-on-Yourself.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Perform-the-Heimlich-Maneuver-on-Yourself.jpg"; sourceTree = "<group>"; };
+		145403FF0F5237080015AD29 /* Survive-a-Shark-Attack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Survive-a-Shark-Attack.jpg"; sourceTree = "<group>"; };
+		145404000F5237080015AD29 /* Open-a-Door-with-a-Credit-Card.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Open-a-Door-with-a-Credit-Card.jpg"; sourceTree = "<group>"; };
+		145404010F5237080015AD29 /* Make-Water-in-the-Desert.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Make-Water-in-the-Desert.jpg"; sourceTree = "<group>"; };
+		145404020F5237080015AD29 /* Survive-a-Hotel-Fire.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Survive-a-Hotel-Fire.jpg"; sourceTree = "<group>"; };
+		145404030F5237090015AD29 /* Open-a-Wine-Bottle-Without-a-Corkscrew.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Open-a-Wine-Bottle-Without-a-Corkscrew.jpg"; sourceTree = "<group>"; };
+		145404040F5237090015AD29 /* Treat-Road-Rash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Treat-Road-Rash.jpg"; sourceTree = "<group>"; };
+		145404050F5237090015AD29 /* Treat-Poison-Ivy-and-Poison-Oak.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Treat-Poison-Ivy-and-Poison-Oak.jpg"; sourceTree = "<group>"; };
+		145404060F5237090015AD29 /* Make-a-Tight-Turn-Quickly-in-a-Car.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Make-a-Tight-Turn-Quickly-in-a-Car.jpg"; sourceTree = "<group>"; };
+		145404070F5237090015AD29 /* Treat-a-Bullet-Wound.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Treat-a-Bullet-Wound.jpg"; sourceTree = "<group>"; };
+		145404080F5237090015AD29 /* Treat-a-Snake-Bite.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Treat-a-Snake-Bite.jpg"; sourceTree = "<group>"; };
+		145404090F5237090015AD29 /* Survive-a-Dirty-Bomb-(Radiological-Dispersion-Device).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Survive-a-Dirty-Bomb-(Radiological-Dispersion-Device).jpg"; sourceTree = "<group>"; };
+		1454040A0F5237090015AD29 /* Survive-a-Car-Accident.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Survive-a-Car-Accident.jpg"; sourceTree = "<group>"; };
+		1454040B0F5237090015AD29 /* Treat-Shock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Treat-Shock.jpg"; sourceTree = "<group>"; };
+		1454040C0F5237090015AD29 /* Treat-a-Poisoning-Victim.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Treat-a-Poisoning-Victim.jpg"; sourceTree = "<group>"; };
+		1454040D0F5237090015AD29 /* Use-a-Fire-Extinguisher.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Use-a-Fire-Extinguisher.jpg"; sourceTree = "<group>"; };
+		1454040E0F5237090015AD29 /* Survive-a-Nuclear-Attack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Survive-a-Nuclear-Attack.jpg"; sourceTree = "<group>"; };
+		1454040F0F5237090015AD29 /* Treat-a-Spinal-Injury-Victim.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Treat-a-Spinal-Injury-Victim.jpg"; sourceTree = "<group>"; };
+		145404100F5237090015AD29 /* Open-a-Beer-Bottle-with-a-Dollar-Bill.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Open-a-Beer-Bottle-with-a-Dollar-Bill.jpg"; sourceTree = "<group>"; };
+		145404110F5237090015AD29 /* Treat-Hypothermia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Treat-Hypothermia.jpg"; sourceTree = "<group>"; };
+		145404120F5237090015AD29 /* Treat-Frostbite.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Treat-Frostbite.jpg"; sourceTree = "<group>"; };
+		145404130F5237090015AD29 /* Treat-a-Bee-Sting.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Treat-a-Bee-Sting.jpg"; sourceTree = "<group>"; };
+		145404140F5237090015AD29 /* Treat-a-Burn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Treat-a-Burn.jpg"; sourceTree = "<group>"; };
+		1454048C0F52819F0015AD29 /* ShakeIndicator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShakeIndicator.png; sourceTree = "<group>"; };
+		14AECA660F596421006123F3 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		14AECA670F596421006123F3 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		14E2801E0F5631E200832698 /* Get-Your-Car-Out-of-the-Snow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Get-Your-Car-Out-of-the-Snow.jpg"; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* wikiHowAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wikiHowAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* wikiHowAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wikiHowAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* wikiHow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wikiHow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* wikiHow_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wikiHow_Prefix.pch; sourceTree = "<group>"; };
+		83EF3D310F8CE4D5005B22CB /* WHNetworkAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WHNetworkAlertView.h; path = "wikiHow app release candidate 3/Classes/Views/WHNetworkAlertView.h"; sourceTree = DEVELOPER_DIR; };
+		83EF3D320F8CE4D6005B22CB /* WHNetworkAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WHNetworkAlertView.m; path = "wikiHow app release candidate 3/Classes/Views/WHNetworkAlertView.m"; sourceTree = DEVELOPER_DIR; };
+		83EF3D340F8CE4F7005B22CB /* WHSearchNetworkAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WHSearchNetworkAlertView.h; path = "wikiHow app release candidate 3/Classes/Views/WHSearchNetworkAlertView.h"; sourceTree = DEVELOPER_DIR; };
+		83EF3D350F8CE4F7005B22CB /* WHSearchNetworkAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WHSearchNetworkAlertView.m; path = "wikiHow app release candidate 3/Classes/Views/WHSearchNetworkAlertView.m"; sourceTree = DEVELOPER_DIR; };
+		842B7F990F505F3600714A3A /* Credits.txt */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text; path = Credits.txt; sourceTree = "<group>"; };
+		84480F1E0F38AD0B00A8CEAA /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		84480F200F38AD1900A8CEAA /* UITabBarController+DelegatedRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+DelegatedRotation.h"; sourceTree = "<group>"; };
+		84480F210F38AD1900A8CEAA /* UITabBarController+DelegatedRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+DelegatedRotation.m"; sourceTree = "<group>"; };
+		84480F220F38AD1900A8CEAA /* WHSearchXMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHSearchXMLReader.h; sourceTree = "<group>"; };
+		84480F230F38AD1900A8CEAA /* WHSearchXMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHSearchXMLReader.m; sourceTree = "<group>"; };
+		84480F250F38AD1900A8CEAA /* WHImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHImageViewController.h; sourceTree = "<group>"; };
+		84480F260F38AD1900A8CEAA /* WHImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHImageViewController.m; sourceTree = "<group>"; };
+		84480F270F38AD1900A8CEAA /* WHNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHNavigationController.h; sourceTree = "<group>"; };
+		84480F280F38AD1900A8CEAA /* WHNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHNavigationController.m; sourceTree = "<group>"; };
+		84480F290F38AD1900A8CEAA /* WHSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHSearchViewController.h; sourceTree = "<group>"; };
+		84480F2A0F38AD1900A8CEAA /* WHSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHSearchViewController.m; sourceTree = "<group>"; };
+		84480F2B0F38AD1900A8CEAA /* WHArticleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHArticleViewController.h; sourceTree = "<group>"; };
+		84480F2C0F38AD1900A8CEAA /* WHArticleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHArticleViewController.m; sourceTree = "<group>"; };
+		84480F2D0F38AD1900A8CEAA /* WHFeaturedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHFeaturedViewController.h; sourceTree = "<group>"; };
+		84480F2E0F38AD1900A8CEAA /* WHFeaturedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHFeaturedViewController.m; sourceTree = "<group>"; };
+		84480F2F0F38AD1900A8CEAA /* WHSuggestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHSuggestionViewController.h; sourceTree = "<group>"; };
+		84480F300F38AD1900A8CEAA /* WHSuggestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHSuggestionViewController.m; sourceTree = "<group>"; };
+		84480F310F38AD1900A8CEAA /* WHSurvivalKitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHSurvivalKitViewController.h; sourceTree = "<group>"; };
+		84480F320F38AD1900A8CEAA /* WHSurvivalKitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHSurvivalKitViewController.m; sourceTree = "<group>"; };
+		84480F330F38AD1900A8CEAA /* WHBookmarksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHBookmarksViewController.h; sourceTree = "<group>"; };
+		84480F340F38AD1900A8CEAA /* WHBookmarksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHBookmarksViewController.m; sourceTree = "<group>"; };
+		84480F350F38AD1900A8CEAA /* WHPreferenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHPreferenceViewController.h; sourceTree = "<group>"; };
+		84480F360F38AD1900A8CEAA /* WHPreferenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHPreferenceViewController.m; sourceTree = "<group>"; };
+		84480F370F38AD1900A8CEAA /* WHMultiValuePreferenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHMultiValuePreferenceViewController.h; sourceTree = "<group>"; };
+		84480F380F38AD1900A8CEAA /* WHMultiValuePreferenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHMultiValuePreferenceViewController.m; sourceTree = "<group>"; };
+		84480F390F38AD1900A8CEAA /* WHAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHAboutViewController.h; sourceTree = "<group>"; };
+		84480F3A0F38AD1900A8CEAA /* WHAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHAboutViewController.m; sourceTree = "<group>"; };
+		84480F3B0F38AD1900A8CEAA /* WHTipsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHTipsViewController.h; sourceTree = "<group>"; };
+		84480F3C0F38AD1900A8CEAA /* WHTipsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHTipsViewController.m; sourceTree = "<group>"; };
+		84480F3E0F38AD1900A8CEAA /* ABTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTableViewCell.h; sourceTree = "<group>"; };
+		84480F3F0F38AD1900A8CEAA /* ABTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTableViewCell.m; sourceTree = "<group>"; };
+		84480F400F38AD1900A8CEAA /* WHSearchField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHSearchField.h; sourceTree = "<group>"; };
+		84480F410F38AD1900A8CEAA /* WHSearchField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHSearchField.m; sourceTree = "<group>"; };
+		84480F420F38AD1900A8CEAA /* WHImageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHImageScrollView.h; sourceTree = "<group>"; };
+		84480F430F38AD1900A8CEAA /* WHImageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHImageScrollView.m; sourceTree = "<group>"; };
+		84480F440F38AD1900A8CEAA /* WHTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHTableViewCell.h; sourceTree = "<group>"; };
+		84480F450F38AD1900A8CEAA /* WHTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHTableViewCell.m; sourceTree = "<group>"; };
+		84480F460F38AD1900A8CEAA /* WHLoadingIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHLoadingIndicator.h; sourceTree = "<group>"; };
+		84480F470F38AD1900A8CEAA /* WHLoadingIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHLoadingIndicator.m; sourceTree = "<group>"; };
+		84480F480F38AD1900A8CEAA /* WHMultiValuePreferenceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHMultiValuePreferenceCell.h; sourceTree = "<group>"; };
+		84480F490F38AD1900A8CEAA /* WHMultiValuePreferenceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHMultiValuePreferenceCell.m; sourceTree = "<group>"; };
+		84480F4B0F38AD1900A8CEAA /* WHArticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHArticle.h; sourceTree = "<group>"; };
+		84480F4C0F38AD1900A8CEAA /* WHArticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHArticle.m; sourceTree = "<group>"; };
+		84480F4D0F38AD1900A8CEAA /* WHArticleCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHArticleCache.h; sourceTree = "<group>"; };
+		84480F4E0F38AD1900A8CEAA /* WHArticleCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHArticleCache.m; sourceTree = "<group>"; };
+		84480F4F0F38AD1900A8CEAA /* WHBookmark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHBookmark.h; sourceTree = "<group>"; };
+		84480F500F38AD1900A8CEAA /* WHBookmark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHBookmark.m; sourceTree = "<group>"; };
+		84480F510F38AD1900A8CEAA /* WHArticlePreloadedCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHArticlePreloadedCache.h; sourceTree = "<group>"; };
+		84480F520F38AD1900A8CEAA /* WHArticlePreloadedCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHArticlePreloadedCache.m; sourceTree = "<group>"; };
+		84480F530F38AD1900A8CEAA /* WHBookmarksDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHBookmarksDataSource.h; sourceTree = "<group>"; };
+		84480F540F38AD1900A8CEAA /* WHBookmarksDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHBookmarksDataSource.m; sourceTree = "<group>"; };
+		84480F550F38AD1900A8CEAA /* WHToggleSwitchPreference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHToggleSwitchPreference.h; sourceTree = "<group>"; };
+		84480F560F38AD1900A8CEAA /* WHToggleSwitchPreference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHToggleSwitchPreference.m; sourceTree = "<group>"; };
+		84480F590F38AD1900A8CEAA /* SoundEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundEffect.h; sourceTree = "<group>"; };
+		84480F5A0F38AD1900A8CEAA /* SoundEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundEffect.m; sourceTree = "<group>"; };
+		84480F5C0F38AD1900A8CEAA /* CXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument.h; sourceTree = "<group>"; };
+		84480F5D0F38AD1900A8CEAA /* CXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument.m; sourceTree = "<group>"; };
+		84480F5E0F38AD1900A8CEAA /* CXMLDocument_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument_PrivateExtensions.h; sourceTree = "<group>"; };
+		84480F5F0F38AD1900A8CEAA /* CXMLDocument_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument_PrivateExtensions.m; sourceTree = "<group>"; };
+		84480F600F38AD1900A8CEAA /* CXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLElement.h; sourceTree = "<group>"; };
+		84480F610F38AD1900A8CEAA /* CXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLElement.m; sourceTree = "<group>"; };
+		84480F620F38AD1900A8CEAA /* CXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode.h; sourceTree = "<group>"; };
+		84480F630F38AD1900A8CEAA /* CXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode.m; sourceTree = "<group>"; };
+		84480F640F38AD1900A8CEAA /* CXMLNode_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_PrivateExtensions.h; sourceTree = "<group>"; };
+		84480F650F38AD1900A8CEAA /* CXMLNode_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_PrivateExtensions.m; sourceTree = "<group>"; };
+		84480F660F38AD1900A8CEAA /* CXMLNode_XPathExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_XPathExtensions.h; sourceTree = "<group>"; };
+		84480F670F38AD1900A8CEAA /* CXMLNode_XPathExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_XPathExtensions.m; sourceTree = "<group>"; };
+		84480F680F38AD1900A8CEAA /* TouchXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchXML.h; sourceTree = "<group>"; };
+		84480F6A0F38AD1900A8CEAA /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		84480F6B0F38AD1900A8CEAA /* GTMNSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSString+HTML.h"; sourceTree = "<group>"; };
+		84480F6C0F38AD1900A8CEAA /* GTMNSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+HTML.m"; sourceTree = "<group>"; };
+		84480F6E0F38AD1900A8CEAA /* KCLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCLogger.h; sourceTree = "<group>"; };
+		84480F6F0F38AD1900A8CEAA /* KCLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCLogger.m; sourceTree = "<group>"; };
+		84480F710F38AD1900A8CEAA /* KCHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCHTTPClient.h; sourceTree = "<group>"; };
+		84480F720F38AD1900A8CEAA /* KCHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCHTTPClient.m; sourceTree = "<group>"; };
+		84480F730F38AD1900A8CEAA /* NSString+HTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HTTPClient.h"; sourceTree = "<group>"; };
+		84480F740F38AD1900A8CEAA /* NSString+HTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HTTPClient.m"; sourceTree = "<group>"; };
+		84480F760F38AD1900A8CEAA /* NSString+wikiHow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+wikiHow.h"; sourceTree = "<group>"; };
+		84480F770F38AD1900A8CEAA /* NSString+wikiHow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+wikiHow.m"; sourceTree = "<group>"; };
+		84480F780F38AD1900A8CEAA /* NSURL+wikiHow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+wikiHow.h"; sourceTree = "<group>"; };
+		84480F790F38AD1900A8CEAA /* NSURL+wikiHow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+wikiHow.m"; sourceTree = "<group>"; };
+		84480F7B0F38AD1900A8CEAA /* KCNetworkActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCNetworkActivityIndicator.h; sourceTree = "<group>"; };
+		84480F7C0F38AD1900A8CEAA /* KCNetworkActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCNetworkActivityIndicator.m; sourceTree = "<group>"; };
+		84480F7E0F38AD1900A8CEAA /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		84480F7F0F38AD1900A8CEAA /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		84480F800F38AD1900A8CEAA /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		84480F810F38AD1900A8CEAA /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		84480F820F38AD1900A8CEAA /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		84480F830F38AD1900A8CEAA /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		84480F840F38AD1900A8CEAA /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		84480FB30F38AD5400A8CEAA /* TOSSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TOSSelected.png; sourceTree = "<group>"; };
+		84480FB40F38AD5400A8CEAA /* TOS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TOS.png; sourceTree = "<group>"; };
+		84480FB50F38AD5400A8CEAA /* About.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = About.png; sourceTree = "<group>"; };
+		84480FB60F38AD5400A8CEAA /* SurvivalKit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SurvivalKit.png; sourceTree = "<group>"; };
+		84480FB70F38AD5400A8CEAA /* wikiHowTitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wikiHowTitle.png; sourceTree = "<group>"; };
+		84480FB80F38AD5400A8CEAA /* SearchField.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SearchField.png; sourceTree = "<group>"; };
+		84480FB90F38AD5400A8CEAA /* MagnifyingGlass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MagnifyingGlass.png; sourceTree = "<group>"; };
+		84480FBA0F38AD5400A8CEAA /* Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Settings.png; sourceTree = "<group>"; };
+		84480FBC0F38AD5400A8CEAA /* Category.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Category.png; sourceTree = "<group>"; };
+		84480FC70F38ADA700A8CEAA /* cache.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = cache.db; sourceTree = "<group>"; };
+		84480FC90F38ADA700A8CEAA /* template.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = template.html; sourceTree = "<group>"; };
+		84480FCA0F38ADA700A8CEAA /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		84480FCB0F38ADA700A8CEAA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		84480FD10F38ADAF00A8CEAA /* Settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Settings.plist; sourceTree = "<group>"; };
+		84480FDD0F38AE7E00A8CEAA /* sqlite3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sqlite3.c; sourceTree = "<group>"; };
+		84480FDE0F38AE7E00A8CEAA /* sqlite3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite3.h; sourceTree = "<group>"; };
+		84480FF90F38AEC100A8CEAA /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		84480FFB0F38AED200A8CEAA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		84480FFF0F38AEDC00A8CEAA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		845C5E0B0F43B33B00EA1042 /* preloaded.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = preloaded.db; sourceTree = "<group>"; };
+		845C5E0D0F43B34A00EA1042 /* Tips.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tips.png; sourceTree = "<group>"; };
+		846EB2C30F38B22300C3A460 /* shake.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = shake.aif; sourceTree = "<group>"; };
+		846EB2CD0F38B28800C3A460 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		846EB2EE0F38BAB200C3A460 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				84480FFA0F38AEC100A8CEAA /* libxml2.2.dylib in Frameworks */,
+				84480FFC0F38AED200A8CEAA /* AudioToolbox.framework in Frameworks */,
+				844810000F38AEDC00A8CEAA /* QuartzCore.framework in Frameworks */,
+				145400930F5127A20015AD29 /* libFlurry.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				84480F1F0F38AD1900A8CEAA /* Helper */,
+				84480F240F38AD1900A8CEAA /* ViewControllers */,
+				84480F3D0F38AD1900A8CEAA /* Views */,
+				84480F4A0F38AD1900A8CEAA /* Models */,
+				84480F570F38AD1900A8CEAA /* Libraries */,
+				1D3623240D0F684500981E51 /* wikiHowAppDelegate.h */,
+				1D3623250D0F684500981E51 /* wikiHowAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		145400900F5127A20015AD29 /* FlurryLib */ = {
+			isa = PBXGroup;
+			children = (
+				145400910F5127A20015AD29 /* FlurryAPI.h */,
+				145400920F5127A20015AD29 /* libFlurry.a */,
+			);
+			path = FlurryLib;
+			sourceTree = "<group>";
+		};
+		14AECA650F5963F2006123F3 /* ImageResize */ = {
+			isa = PBXGroup;
+			children = (
+				14AECA660F596421006123F3 /* UIImage+Resize.h */,
+				14AECA670F596421006123F3 /* UIImage+Resize.m */,
+			);
+			path = ImageResize;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* wikiHow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				846EB2EE0F38BAB200C3A460 /* Entitlements.plist */,
+				145402DC0F5150480015AD29 /* README */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				84480F1E0F38AD0B00A8CEAA /* Constants.h */,
+				32CA4F630368D1EE00C91783 /* wikiHow_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				84480FB10F38AD4000A8CEAA /* Icons */,
+				84480FB20F38AD5400A8CEAA /* Images */,
+				846EB2C30F38B22300C3A460 /* shake.aif */,
+				846EB2CD0F38B28800C3A460 /* MainWindow.xib */,
+				84480FC70F38ADA700A8CEAA /* cache.db */,
+				845C5E0B0F43B33B00EA1042 /* preloaded.db */,
+				84480FC90F38ADA700A8CEAA /* template.html */,
+				84480FCA0F38ADA700A8CEAA /* Icon.png */,
+				84480FCB0F38ADA700A8CEAA /* Default.png */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				84480FD10F38ADAF00A8CEAA /* Settings.plist */,
+				842B7F990F505F3600714A3A /* Credits.txt */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84480FFF0F38AEDC00A8CEAA /* QuartzCore.framework */,
+				84480FFB0F38AED200A8CEAA /* AudioToolbox.framework */,
+				84480FF90F38AEC100A8CEAA /* libxml2.2.dylib */,
+				84480FDC0F38AE7D00A8CEAA /* sqlite */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84480F1F0F38AD1900A8CEAA /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				84480F760F38AD1900A8CEAA /* NSString+wikiHow.h */,
+				84480F770F38AD1900A8CEAA /* NSString+wikiHow.m */,
+				84480F780F38AD1900A8CEAA /* NSURL+wikiHow.h */,
+				84480F790F38AD1900A8CEAA /* NSURL+wikiHow.m */,
+				84480F200F38AD1900A8CEAA /* UITabBarController+DelegatedRotation.h */,
+				84480F210F38AD1900A8CEAA /* UITabBarController+DelegatedRotation.m */,
+				84480F220F38AD1900A8CEAA /* WHSearchXMLReader.h */,
+				84480F230F38AD1900A8CEAA /* WHSearchXMLReader.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		84480F240F38AD1900A8CEAA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				84480F250F38AD1900A8CEAA /* WHImageViewController.h */,
+				84480F260F38AD1900A8CEAA /* WHImageViewController.m */,
+				84480F270F38AD1900A8CEAA /* WHNavigationController.h */,
+				84480F280F38AD1900A8CEAA /* WHNavigationController.m */,
+				84480F290F38AD1900A8CEAA /* WHSearchViewController.h */,
+				84480F2A0F38AD1900A8CEAA /* WHSearchViewController.m */,
+				84480F2B0F38AD1900A8CEAA /* WHArticleViewController.h */,
+				84480F2C0F38AD1900A8CEAA /* WHArticleViewController.m */,
+				84480F2D0F38AD1900A8CEAA /* WHFeaturedViewController.h */,
+				84480F2E0F38AD1900A8CEAA /* WHFeaturedViewController.m */,
+				84480F2F0F38AD1900A8CEAA /* WHSuggestionViewController.h */,
+				84480F300F38AD1900A8CEAA /* WHSuggestionViewController.m */,
+				84480F310F38AD1900A8CEAA /* WHSurvivalKitViewController.h */,
+				84480F320F38AD1900A8CEAA /* WHSurvivalKitViewController.m */,
+				84480F330F38AD1900A8CEAA /* WHBookmarksViewController.h */,
+				84480F340F38AD1900A8CEAA /* WHBookmarksViewController.m */,
+				84480F350F38AD1900A8CEAA /* WHPreferenceViewController.h */,
+				84480F360F38AD1900A8CEAA /* WHPreferenceViewController.m */,
+				84480F370F38AD1900A8CEAA /* WHMultiValuePreferenceViewController.h */,
+				84480F380F38AD1900A8CEAA /* WHMultiValuePreferenceViewController.m */,
+				84480F390F38AD1900A8CEAA /* WHAboutViewController.h */,
+				84480F3A0F38AD1900A8CEAA /* WHAboutViewController.m */,
+				84480F3B0F38AD1900A8CEAA /* WHTipsViewController.h */,
+				84480F3C0F38AD1900A8CEAA /* WHTipsViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		84480F3D0F38AD1900A8CEAA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				83EF3D340F8CE4F7005B22CB /* WHSearchNetworkAlertView.h */,
+				83EF3D350F8CE4F7005B22CB /* WHSearchNetworkAlertView.m */,
+				83EF3D310F8CE4D5005B22CB /* WHNetworkAlertView.h */,
+				83EF3D320F8CE4D6005B22CB /* WHNetworkAlertView.m */,
+				84480F3E0F38AD1900A8CEAA /* ABTableViewCell.h */,
+				84480F3F0F38AD1900A8CEAA /* ABTableViewCell.m */,
+				84480F400F38AD1900A8CEAA /* WHSearchField.h */,
+				84480F410F38AD1900A8CEAA /* WHSearchField.m */,
+				84480F420F38AD1900A8CEAA /* WHImageScrollView.h */,
+				84480F430F38AD1900A8CEAA /* WHImageScrollView.m */,
+				84480F440F38AD1900A8CEAA /* WHTableViewCell.h */,
+				84480F450F38AD1900A8CEAA /* WHTableViewCell.m */,
+				84480F460F38AD1900A8CEAA /* WHLoadingIndicator.h */,
+				84480F470F38AD1900A8CEAA /* WHLoadingIndicator.m */,
+				84480F480F38AD1900A8CEAA /* WHMultiValuePreferenceCell.h */,
+				84480F490F38AD1900A8CEAA /* WHMultiValuePreferenceCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		84480F4A0F38AD1900A8CEAA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84480F4B0F38AD1900A8CEAA /* WHArticle.h */,
+				84480F4C0F38AD1900A8CEAA /* WHArticle.m */,
+				84480F4D0F38AD1900A8CEAA /* WHArticleCache.h */,
+				84480F4E0F38AD1900A8CEAA /* WHArticleCache.m */,
+				84480F4F0F38AD1900A8CEAA /* WHBookmark.h */,
+				84480F500F38AD1900A8CEAA /* WHBookmark.m */,
+				84480F510F38AD1900A8CEAA /* WHArticlePreloadedCache.h */,
+				84480F520F38AD1900A8CEAA /* WHArticlePreloadedCache.m */,
+				84480F530F38AD1900A8CEAA /* WHBookmarksDataSource.h */,
+				84480F540F38AD1900A8CEAA /* WHBookmarksDataSource.m */,
+				84480F550F38AD1900A8CEAA /* WHToggleSwitchPreference.h */,
+				84480F560F38AD1900A8CEAA /* WHToggleSwitchPreference.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84480F570F38AD1900A8CEAA /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				14AECA650F5963F2006123F3 /* ImageResize */,
+				145400900F5127A20015AD29 /* FlurryLib */,
+				84480F700F38AD1900A8CEAA /* HTTPClient */,
+				84480F580F38AD1900A8CEAA /* SoundEffect */,
+				84480F5B0F38AD1900A8CEAA /* XML */,
+				84480F690F38AD1900A8CEAA /* GoogleToolbox */,
+				84480F7A0F38AD1900A8CEAA /* NetworkActivityIndicator */,
+				84480F7D0F38AD1900A8CEAA /* JSON */,
+				84480F6D0F38AD1900A8CEAA /* Debug */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		84480F580F38AD1900A8CEAA /* SoundEffect */ = {
+			isa = PBXGroup;
+			children = (
+				84480F590F38AD1900A8CEAA /* SoundEffect.h */,
+				84480F5A0F38AD1900A8CEAA /* SoundEffect.m */,
+			);
+			path = SoundEffect;
+			sourceTree = "<group>";
+		};
+		84480F5B0F38AD1900A8CEAA /* XML */ = {
+			isa = PBXGroup;
+			children = (
+				84480F5C0F38AD1900A8CEAA /* CXMLDocument.h */,
+				84480F5D0F38AD1900A8CEAA /* CXMLDocument.m */,
+				84480F5E0F38AD1900A8CEAA /* CXMLDocument_PrivateExtensions.h */,
+				84480F5F0F38AD1900A8CEAA /* CXMLDocument_PrivateExtensions.m */,
+				84480F600F38AD1900A8CEAA /* CXMLElement.h */,
+				84480F610F38AD1900A8CEAA /* CXMLElement.m */,
+				84480F620F38AD1900A8CEAA /* CXMLNode.h */,
+				84480F630F38AD1900A8CEAA /* CXMLNode.m */,
+				84480F640F38AD1900A8CEAA /* CXMLNode_PrivateExtensions.h */,
+				84480F650F38AD1900A8CEAA /* CXMLNode_PrivateExtensions.m */,
+				84480F660F38AD1900A8CEAA /* CXMLNode_XPathExtensions.h */,
+				84480F670F38AD1900A8CEAA /* CXMLNode_XPathExtensions.m */,
+				84480F680F38AD1900A8CEAA /* TouchXML.h */,
+			);
+			path = XML;
+			sourceTree = "<group>";
+		};
+		84480F690F38AD1900A8CEAA /* GoogleToolbox */ = {
+			isa = PBXGroup;
+			children = (
+				84480F6A0F38AD1900A8CEAA /* GTMDefines.h */,
+				84480F6B0F38AD1900A8CEAA /* GTMNSString+HTML.h */,
+				84480F6C0F38AD1900A8CEAA /* GTMNSString+HTML.m */,
+			);
+			path = GoogleToolbox;
+			sourceTree = "<group>";
+		};
+		84480F6D0F38AD1900A8CEAA /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				84480F6E0F38AD1900A8CEAA /* KCLogger.h */,
+				84480F6F0F38AD1900A8CEAA /* KCLogger.m */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		84480F700F38AD1900A8CEAA /* HTTPClient */ = {
+			isa = PBXGroup;
+			children = (
+				84480F710F38AD1900A8CEAA /* KCHTTPClient.h */,
+				84480F720F38AD1900A8CEAA /* KCHTTPClient.m */,
+				84480F730F38AD1900A8CEAA /* NSString+HTTPClient.h */,
+				84480F740F38AD1900A8CEAA /* NSString+HTTPClient.m */,
+			);
+			path = HTTPClient;
+			sourceTree = "<group>";
+		};
+		84480F7A0F38AD1900A8CEAA /* NetworkActivityIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				84480F7B0F38AD1900A8CEAA /* KCNetworkActivityIndicator.h */,
+				84480F7C0F38AD1900A8CEAA /* KCNetworkActivityIndicator.m */,
+			);
+			path = NetworkActivityIndicator;
+			sourceTree = "<group>";
+		};
+		84480F7D0F38AD1900A8CEAA /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				84480F7E0F38AD1900A8CEAA /* JSON.h */,
+				84480F7F0F38AD1900A8CEAA /* NSObject+SBJSON.h */,
+				84480F800F38AD1900A8CEAA /* NSObject+SBJSON.m */,
+				84480F810F38AD1900A8CEAA /* NSString+SBJSON.h */,
+				84480F820F38AD1900A8CEAA /* NSString+SBJSON.m */,
+				84480F830F38AD1900A8CEAA /* SBJSON.h */,
+				84480F840F38AD1900A8CEAA /* SBJSON.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		84480FB10F38AD4000A8CEAA /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				14E2801E0F5631E200832698 /* Get-Your-Car-Out-of-the-Snow.jpg */,
+				145403BD0F5237080015AD29 /* Deliver-a-Baby.jpg */,
+				145403BE0F5237080015AD29 /* Pick-a-Lock.jpg */,
+				145403BF0F5237080015AD29 /* Predict-the-Weather-Without-a-Forecast.jpg */,
+				145403C10F5237080015AD29 /* Handle-a-Dog-Attack.jpg */,
+				145403C20F5237080015AD29 /* Regain-Control-of-a-Spooked-Camel.jpg */,
+				145403C30F5237080015AD29 /* Remove-a-Tick.jpg */,
+				145403C40F5237080015AD29 /* Provide-First-Aid-for-a-Broken-Bone.jpg */,
+				145403C50F5237080015AD29 /* Help-a-Choking-Victim.jpg */,
+				145403C60F5237080015AD29 /* Help-Someone-Who-Is-Having-a-Seizure.jpg */,
+				145403C70F5237080015AD29 /* Get-out-of-a-Car-That%27s-Hanging-over-a-Cliff.jpg */,
+				145403C80F5237080015AD29 /* Take-a-Punch.jpg */,
+				145403C90F5237080015AD29 /* Tell-Time-Without-a-Clock.jpg */,
+				145403CA0F5237080015AD29 /* Do-Basic-First-Aid.jpg */,
+				145403CB0F5237080015AD29 /* Purify-Water.jpg */,
+				145403CC0F5237080015AD29 /* React-During-an-Earthquake.jpg */,
+				145403CD0F5237080015AD29 /* Report-an-Emergency.jpg */,
+				145403CE0F5237080015AD29 /* Administer-First-Aid-to-a-Choking-Child.jpg */,
+				145403CF0F5237080015AD29 /* Administer-Adult-CPR-(Cardiopulmonary-Resuscitation).jpg */,
+				145403D00F5237080015AD29 /* Survive-an-Avalanche.jpg */,
+				145403D10F5237080015AD29 /* Survive-an-Encounter-with-a-Crocodile-or-Alligator.jpg */,
+				145403D20F5237080015AD29 /* Survive-in-the-Woods.jpg */,
+				145403D30F5237080015AD29 /* Avoid-a-Rattlesnake-Attack.jpg */,
+				145403D40F5237080015AD29 /* Survive-a-Riot.jpg */,
+				145403D50F5237080015AD29 /* Rescue-Someone-Who-Has-Fallen-Through-Ice.jpg */,
+				145403D60F5237080015AD29 /* Survive-a-School-or-Workplace-Shooting.jpg */,
+				145403D70F5237080015AD29 /* Know-When-Ice-is-Safe.jpg */,
+				145403D80F5237080015AD29 /* Kick-Down-a-Door.jpg */,
+				145403D90F5237080015AD29 /* Calculate-the-Distance-from-Lightning.jpg */,
+				145403DA0F5237080015AD29 /* Survive-a-Riptide.jpg */,
+				145403DB0F5237080015AD29 /* Run-Up-and-Over-a-Wall.jpg */,
+				145403DC0F5237080015AD29 /* Escape-from-a-Bear.jpg */,
+				145403DD0F5237080015AD29 /* Escape-from-a-Sinking-Car.jpg */,
+				145403DE0F5237080015AD29 /* Escape-a-Minefield.jpg */,
+				145403DF0F5237080015AD29 /* Build-an-Igloo.jpg */,
+				145403E00F5237080015AD29 /* Safely-Swim-with-Piranhas.jpg */,
+				145403E10F5237080015AD29 /* Do-a-Fireman%27s-Carry.jpg */,
+				145403E20F5237080015AD29 /* Calculate-the-Distance-to-the-Horizon.jpg */,
+				145403E30F5237080015AD29 /* Find-True-North-Without-a-Compass.jpg */,
+				145403E40F5237080015AD29 /* Do-CPR-on-a-Baby.jpg */,
+				145403E50F5237080015AD29 /* Get-Emergency-Drinking-Water-from-a-Water-Heater.jpg */,
+				145403E60F5237080015AD29 /* Attend-to-a-Stab-Wound.jpg */,
+				145403E70F5237080015AD29 /* Get-out-of-Quicksand.jpg */,
+				145403E80F5237080015AD29 /* Identify-if-Someone-Had-a-Stroke.jpg */,
+				145403E90F5237080015AD29 /* Fix-a-Dislocated-Shoulder.jpg */,
+				145403EA0F5237080015AD29 /* Open-a-Bottle-with-a-Ring.jpg */,
+				145403EB0F5237080015AD29 /* Survive-a-Gas-Attack.jpg */,
+				145403EC0F5237080015AD29 /* Treat-a-Concussion.jpg */,
+				145403ED0F5237080015AD29 /* Perform-the-Heimlich-Maneuver.jpg */,
+				145403EE0F5237080015AD29 /* Start-a-Fire-with-Sticks.jpg */,
+				145403EF0F5237080015AD29 /* Stop-a-Car-with-No-Brakes.jpg */,
+				145403F00F5237080015AD29 /* Stop-a-Nose-Bleed.jpg */,
+				145403F10F5237080015AD29 /* Survive-a-Dust-Storm-or-Sandstorm.jpg */,
+				145403F20F5237080015AD29 /* Escape-From-the-Trunk-of-a-Car.jpg */,
+				145403F30F5237080015AD29 /* Change-a-Tire.jpg */,
+				145403F40F5237080015AD29 /* Survive-a-Tsunami.jpg */,
+				145403F50F5237080015AD29 /* Treat-a-Puncture-Wound.jpg */,
+				145403F60F5237080015AD29 /* Prepare-for-a-Hurricane.jpg */,
+				145403F70F5237080015AD29 /* Land-an-Airplane-in-an-Emergency.jpg */,
+				145403F80F5237080015AD29 /* Survive-a-Fall-Through-Ice.jpg */,
+				145403F90F5237080015AD29 /* Stop-Bleeding.jpg */,
+				145403FA0F5237080015AD29 /* Jump-Start-a-Car.jpg */,
+				145403FB0F5237080015AD29 /* Survive-a-Long-Fall.jpg */,
+				145403FC0F5237080015AD29 /* Survive-a-Plane-Crash.jpg */,
+				145403FD0F5237080015AD29 /* Build-a-Fire.jpg */,
+				145403FE0F5237080015AD29 /* Perform-the-Heimlich-Maneuver-on-Yourself.jpg */,
+				145403FF0F5237080015AD29 /* Survive-a-Shark-Attack.jpg */,
+				145404000F5237080015AD29 /* Open-a-Door-with-a-Credit-Card.jpg */,
+				145404010F5237080015AD29 /* Make-Water-in-the-Desert.jpg */,
+				145404020F5237080015AD29 /* Survive-a-Hotel-Fire.jpg */,
+				145404030F5237090015AD29 /* Open-a-Wine-Bottle-Without-a-Corkscrew.jpg */,
+				145404040F5237090015AD29 /* Treat-Road-Rash.jpg */,
+				145404050F5237090015AD29 /* Treat-Poison-Ivy-and-Poison-Oak.jpg */,
+				145404060F5237090015AD29 /* Make-a-Tight-Turn-Quickly-in-a-Car.jpg */,
+				145404070F5237090015AD29 /* Treat-a-Bullet-Wound.jpg */,
+				145404080F5237090015AD29 /* Treat-a-Snake-Bite.jpg */,
+				145404090F5237090015AD29 /* Survive-a-Dirty-Bomb-(Radiological-Dispersion-Device).jpg */,
+				1454040A0F5237090015AD29 /* Survive-a-Car-Accident.jpg */,
+				1454040B0F5237090015AD29 /* Treat-Shock.jpg */,
+				1454040C0F5237090015AD29 /* Treat-a-Poisoning-Victim.jpg */,
+				1454040D0F5237090015AD29 /* Use-a-Fire-Extinguisher.jpg */,
+				1454040E0F5237090015AD29 /* Survive-a-Nuclear-Attack.jpg */,
+				1454040F0F5237090015AD29 /* Treat-a-Spinal-Injury-Victim.jpg */,
+				145404100F5237090015AD29 /* Open-a-Beer-Bottle-with-a-Dollar-Bill.jpg */,
+				145404110F5237090015AD29 /* Treat-Hypothermia.jpg */,
+				145404120F5237090015AD29 /* Treat-Frostbite.jpg */,
+				145404130F5237090015AD29 /* Treat-a-Bee-Sting.jpg */,
+				145404140F5237090015AD29 /* Treat-a-Burn.jpg */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		84480FB20F38AD5400A8CEAA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1454048C0F52819F0015AD29 /* ShakeIndicator.png */,
+				145403040F5234220015AD29 /* MissingIcon.png */,
+				145401AA0F51400B0015AD29 /* StartButton.png */,
+				84480FB30F38AD5400A8CEAA /* TOSSelected.png */,
+				84480FB40F38AD5400A8CEAA /* TOS.png */,
+				84480FB50F38AD5400A8CEAA /* About.png */,
+				84480FB60F38AD5400A8CEAA /* SurvivalKit.png */,
+				84480FB70F38AD5400A8CEAA /* wikiHowTitle.png */,
+				84480FB80F38AD5400A8CEAA /* SearchField.png */,
+				84480FB90F38AD5400A8CEAA /* MagnifyingGlass.png */,
+				845C5E0D0F43B34A00EA1042 /* Tips.png */,
+				84480FBA0F38AD5400A8CEAA /* Settings.png */,
+				84480FBC0F38AD5400A8CEAA /* Category.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		84480FDC0F38AE7D00A8CEAA /* sqlite */ = {
+			isa = PBXGroup;
+			children = (
+				84480FDD0F38AE7E00A8CEAA /* sqlite3.c */,
+				84480FDE0F38AE7E00A8CEAA /* sqlite3.h */,
+			);
+			path = sqlite;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* wikiHow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "wikiHow" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wikiHow;
+			productName = wikiHow;
+			productReference = 1D6058910D05DD3D006BFB54 /* wikiHow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "wikiHow" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* wikiHow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84480FBD0F38AD5400A8CEAA /* TOSSelected.png in Resources */,
+				84480FBE0F38AD5400A8CEAA /* TOS.png in Resources */,
+				84480FBF0F38AD5400A8CEAA /* About.png in Resources */,
+				84480FC00F38AD5400A8CEAA /* SurvivalKit.png in Resources */,
+				84480FC10F38AD5400A8CEAA /* wikiHowTitle.png in Resources */,
+				84480FC20F38AD5400A8CEAA /* SearchField.png in Resources */,
+				84480FC30F38AD5400A8CEAA /* MagnifyingGlass.png in Resources */,
+				84480FC40F38AD5400A8CEAA /* Settings.png in Resources */,
+				84480FC60F38AD5400A8CEAA /* Category.png in Resources */,
+				84480FCC0F38ADA700A8CEAA /* cache.db in Resources */,
+				84480FCE0F38ADA700A8CEAA /* template.html in Resources */,
+				84480FCF0F38ADA700A8CEAA /* Icon.png in Resources */,
+				84480FD00F38ADA700A8CEAA /* Default.png in Resources */,
+				84480FD20F38ADAF00A8CEAA /* Settings.plist in Resources */,
+				846EB2C40F38B22300C3A460 /* shake.aif in Resources */,
+				846EB2CE0F38B28800C3A460 /* MainWindow.xib in Resources */,
+				846EB2EF0F38BAB200C3A460 /* Entitlements.plist in Resources */,
+				845C5E0C0F43B33B00EA1042 /* preloaded.db in Resources */,
+				845C5E0E0F43B34A00EA1042 /* Tips.png in Resources */,
+				842B7F9A0F505F3600714A3A /* Credits.txt in Resources */,
+				145401AB0F51400B0015AD29 /* StartButton.png in Resources */,
+				145402DD0F5150480015AD29 /* README in Resources */,
+				145403050F5234220015AD29 /* MissingIcon.png in Resources */,
+				145404150F5237090015AD29 /* Deliver-a-Baby.jpg in Resources */,
+				145404160F5237090015AD29 /* Pick-a-Lock.jpg in Resources */,
+				145404170F5237090015AD29 /* Predict-the-Weather-Without-a-Forecast.jpg in Resources */,
+				145404190F5237090015AD29 /* Handle-a-Dog-Attack.jpg in Resources */,
+				1454041A0F5237090015AD29 /* Regain-Control-of-a-Spooked-Camel.jpg in Resources */,
+				1454041B0F5237090015AD29 /* Remove-a-Tick.jpg in Resources */,
+				1454041C0F5237090015AD29 /* Provide-First-Aid-for-a-Broken-Bone.jpg in Resources */,
+				1454041D0F5237090015AD29 /* Help-a-Choking-Victim.jpg in Resources */,
+				1454041E0F5237090015AD29 /* Help-Someone-Who-Is-Having-a-Seizure.jpg in Resources */,
+				1454041F0F5237090015AD29 /* Get-out-of-a-Car-That%27s-Hanging-over-a-Cliff.jpg in Resources */,
+				145404200F5237090015AD29 /* Take-a-Punch.jpg in Resources */,
+				145404210F5237090015AD29 /* Tell-Time-Without-a-Clock.jpg in Resources */,
+				145404220F5237090015AD29 /* Do-Basic-First-Aid.jpg in Resources */,
+				145404230F5237090015AD29 /* Purify-Water.jpg in Resources */,
+				145404240F5237090015AD29 /* React-During-an-Earthquake.jpg in Resources */,
+				145404250F5237090015AD29 /* Report-an-Emergency.jpg in Resources */,
+				145404260F5237090015AD29 /* Administer-First-Aid-to-a-Choking-Child.jpg in Resources */,
+				145404270F5237090015AD29 /* Administer-Adult-CPR-(Cardiopulmonary-Resuscitation).jpg in Resources */,
+				145404280F5237090015AD29 /* Survive-an-Avalanche.jpg in Resources */,
+				145404290F5237090015AD29 /* Survive-an-Encounter-with-a-Crocodile-or-Alligator.jpg in Resources */,
+				1454042A0F5237090015AD29 /* Survive-in-the-Woods.jpg in Resources */,
+				1454042B0F5237090015AD29 /* Avoid-a-Rattlesnake-Attack.jpg in Resources */,
+				1454042C0F5237090015AD29 /* Survive-a-Riot.jpg in Resources */,
+				1454042D0F5237090015AD29 /* Rescue-Someone-Who-Has-Fallen-Through-Ice.jpg in Resources */,
+				1454042E0F5237090015AD29 /* Survive-a-School-or-Workplace-Shooting.jpg in Resources */,
+				1454042F0F5237090015AD29 /* Know-When-Ice-is-Safe.jpg in Resources */,
+				145404300F5237090015AD29 /* Kick-Down-a-Door.jpg in Resources */,
+				145404310F5237090015AD29 /* Calculate-the-Distance-from-Lightning.jpg in Resources */,
+				145404320F5237090015AD29 /* Survive-a-Riptide.jpg in Resources */,
+				145404330F5237090015AD29 /* Run-Up-and-Over-a-Wall.jpg in Resources */,
+				145404340F5237090015AD29 /* Escape-from-a-Bear.jpg in Resources */,
+				145404350F5237090015AD29 /* Escape-from-a-Sinking-Car.jpg in Resources */,
+				145404360F5237090015AD29 /* Escape-a-Minefield.jpg in Resources */,
+				145404370F5237090015AD29 /* Build-an-Igloo.jpg in Resources */,
+				145404380F5237090015AD29 /* Safely-Swim-with-Piranhas.jpg in Resources */,
+				145404390F5237090015AD29 /* Do-a-Fireman%27s-Carry.jpg in Resources */,
+				1454043A0F5237090015AD29 /* Calculate-the-Distance-to-the-Horizon.jpg in Resources */,
+				1454043B0F5237090015AD29 /* Find-True-North-Without-a-Compass.jpg in Resources */,
+				1454043C0F5237090015AD29 /* Do-CPR-on-a-Baby.jpg in Resources */,
+				1454043D0F5237090015AD29 /* Get-Emergency-Drinking-Water-from-a-Water-Heater.jpg in Resources */,
+				1454043E0F5237090015AD29 /* Attend-to-a-Stab-Wound.jpg in Resources */,
+				1454043F0F5237090015AD29 /* Get-out-of-Quicksand.jpg in Resources */,
+				145404400F5237090015AD29 /* Identify-if-Someone-Had-a-Stroke.jpg in Resources */,
+				145404410F5237090015AD29 /* Fix-a-Dislocated-Shoulder.jpg in Resources */,
+				145404420F5237090015AD29 /* Open-a-Bottle-with-a-Ring.jpg in Resources */,
+				145404430F5237090015AD29 /* Survive-a-Gas-Attack.jpg in Resources */,
+				145404440F5237090015AD29 /* Treat-a-Concussion.jpg in Resources */,
+				145404450F5237090015AD29 /* Perform-the-Heimlich-Maneuver.jpg in Resources */,
+				145404460F5237090015AD29 /* Start-a-Fire-with-Sticks.jpg in Resources */,
+				145404470F5237090015AD29 /* Stop-a-Car-with-No-Brakes.jpg in Resources */,
+				145404480F5237090015AD29 /* Stop-a-Nose-Bleed.jpg in Resources */,
+				145404490F5237090015AD29 /* Survive-a-Dust-Storm-or-Sandstorm.jpg in Resources */,
+				1454044A0F5237090015AD29 /* Escape-From-the-Trunk-of-a-Car.jpg in Resources */,
+				1454044B0F5237090015AD29 /* Change-a-Tire.jpg in Resources */,
+				1454044C0F5237090015AD29 /* Survive-a-Tsunami.jpg in Resources */,
+				1454044D0F5237090015AD29 /* Treat-a-Puncture-Wound.jpg in Resources */,
+				1454044E0F5237090015AD29 /* Prepare-for-a-Hurricane.jpg in Resources */,
+				1454044F0F5237090015AD29 /* Land-an-Airplane-in-an-Emergency.jpg in Resources */,
+				145404500F5237090015AD29 /* Survive-a-Fall-Through-Ice.jpg in Resources */,
+				145404510F5237090015AD29 /* Stop-Bleeding.jpg in Resources */,
+				145404520F5237090015AD29 /* Jump-Start-a-Car.jpg in Resources */,
+				145404530F5237090015AD29 /* Survive-a-Long-Fall.jpg in Resources */,
+				145404540F5237090015AD29 /* Survive-a-Plane-Crash.jpg in Resources */,
+				145404550F5237090015AD29 /* Build-a-Fire.jpg in Resources */,
+				145404560F5237090015AD29 /* Perform-the-Heimlich-Maneuver-on-Yourself.jpg in Resources */,
+				145404570F5237090015AD29 /* Survive-a-Shark-Attack.jpg in Resources */,
+				145404580F5237090015AD29 /* Open-a-Door-with-a-Credit-Card.jpg in Resources */,
+				145404590F5237090015AD29 /* Make-Water-in-the-Desert.jpg in Resources */,
+				1454045A0F5237090015AD29 /* Survive-a-Hotel-Fire.jpg in Resources */,
+				1454045B0F5237090015AD29 /* Open-a-Wine-Bottle-Without-a-Corkscrew.jpg in Resources */,
+				1454045C0F5237090015AD29 /* Treat-Road-Rash.jpg in Resources */,
+				1454045D0F5237090015AD29 /* Treat-Poison-Ivy-and-Poison-Oak.jpg in Resources */,
+				1454045E0F5237090015AD29 /* Make-a-Tight-Turn-Quickly-in-a-Car.jpg in Resources */,
+				1454045F0F5237090015AD29 /* Treat-a-Bullet-Wound.jpg in Resources */,
+				145404600F5237090015AD29 /* Treat-a-Snake-Bite.jpg in Resources */,
+				145404610F5237090015AD29 /* Survive-a-Dirty-Bomb-(Radiological-Dispersion-Device).jpg in Resources */,
+				145404620F5237090015AD29 /* Survive-a-Car-Accident.jpg in Resources */,
+				145404630F5237090015AD29 /* Treat-Shock.jpg in Resources */,
+				145404640F5237090015AD29 /* Treat-a-Poisoning-Victim.jpg in Resources */,
+				145404650F5237090015AD29 /* Use-a-Fire-Extinguisher.jpg in Resources */,
+				145404660F5237090015AD29 /* Survive-a-Nuclear-Attack.jpg in Resources */,
+				145404670F5237090015AD29 /* Treat-a-Spinal-Injury-Victim.jpg in Resources */,
+				145404680F5237090015AD29 /* Open-a-Beer-Bottle-with-a-Dollar-Bill.jpg in Resources */,
+				145404690F5237090015AD29 /* Treat-Hypothermia.jpg in Resources */,
+				1454046A0F5237090015AD29 /* Treat-Frostbite.jpg in Resources */,
+				1454046B0F5237090015AD29 /* Treat-a-Bee-Sting.jpg in Resources */,
+				1454046C0F5237090015AD29 /* Treat-a-Burn.jpg in Resources */,
+				1454048D0F52819F0015AD29 /* ShakeIndicator.png in Resources */,
+				14E2801F0F5631E200832698 /* Get-Your-Car-Out-of-the-Snow.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* wikiHowAppDelegate.m in Sources */,
+				84480F850F38AD1900A8CEAA /* UITabBarController+DelegatedRotation.m in Sources */,
+				84480F860F38AD1900A8CEAA /* WHSearchXMLReader.m in Sources */,
+				84480F870F38AD1900A8CEAA /* WHImageViewController.m in Sources */,
+				84480F880F38AD1900A8CEAA /* WHNavigationController.m in Sources */,
+				84480F890F38AD1900A8CEAA /* WHSearchViewController.m in Sources */,
+				84480F8A0F38AD1900A8CEAA /* WHArticleViewController.m in Sources */,
+				84480F8B0F38AD1900A8CEAA /* WHFeaturedViewController.m in Sources */,
+				84480F8C0F38AD1900A8CEAA /* WHSuggestionViewController.m in Sources */,
+				84480F8D0F38AD1900A8CEAA /* WHSurvivalKitViewController.m in Sources */,
+				84480F8E0F38AD1900A8CEAA /* WHBookmarksViewController.m in Sources */,
+				84480F8F0F38AD1900A8CEAA /* WHPreferenceViewController.m in Sources */,
+				84480F900F38AD1900A8CEAA /* WHMultiValuePreferenceViewController.m in Sources */,
+				84480F910F38AD1900A8CEAA /* WHAboutViewController.m in Sources */,
+				84480F920F38AD1900A8CEAA /* WHTipsViewController.m in Sources */,
+				84480F930F38AD1900A8CEAA /* ABTableViewCell.m in Sources */,
+				84480F940F38AD1900A8CEAA /* WHSearchField.m in Sources */,
+				84480F950F38AD1900A8CEAA /* WHImageScrollView.m in Sources */,
+				84480F960F38AD1900A8CEAA /* WHTableViewCell.m in Sources */,
+				84480F970F38AD1900A8CEAA /* WHLoadingIndicator.m in Sources */,
+				84480F980F38AD1900A8CEAA /* WHMultiValuePreferenceCell.m in Sources */,
+				84480F990F38AD1900A8CEAA /* WHArticle.m in Sources */,
+				84480F9A0F38AD1900A8CEAA /* WHArticleCache.m in Sources */,
+				84480F9B0F38AD1900A8CEAA /* WHBookmark.m in Sources */,
+				84480F9C0F38AD1900A8CEAA /* WHArticlePreloadedCache.m in Sources */,
+				84480F9D0F38AD1900A8CEAA /* WHBookmarksDataSource.m in Sources */,
+				84480F9E0F38AD1900A8CEAA /* WHToggleSwitchPreference.m in Sources */,
+				84480F9F0F38AD1900A8CEAA /* SoundEffect.m in Sources */,
+				84480FA00F38AD1900A8CEAA /* CXMLDocument.m in Sources */,
+				84480FA10F38AD1900A8CEAA /* CXMLDocument_PrivateExtensions.m in Sources */,
+				84480FA20F38AD1900A8CEAA /* CXMLElement.m in Sources */,
+				84480FA30F38AD1900A8CEAA /* CXMLNode.m in Sources */,
+				84480FA40F38AD1900A8CEAA /* CXMLNode_PrivateExtensions.m in Sources */,
+				84480FA50F38AD1900A8CEAA /* CXMLNode_XPathExtensions.m in Sources */,
+				84480FA60F38AD1900A8CEAA /* GTMNSString+HTML.m in Sources */,
+				84480FA70F38AD1900A8CEAA /* KCLogger.m in Sources */,
+				84480FA80F38AD1900A8CEAA /* KCHTTPClient.m in Sources */,
+				84480FA90F38AD1900A8CEAA /* NSString+HTTPClient.m in Sources */,
+				84480FAA0F38AD1900A8CEAA /* NSString+wikiHow.m in Sources */,
+				84480FAB0F38AD1900A8CEAA /* NSURL+wikiHow.m in Sources */,
+				84480FAC0F38AD1900A8CEAA /* KCNetworkActivityIndicator.m in Sources */,
+				84480FAD0F38AD1900A8CEAA /* NSObject+SBJSON.m in Sources */,
+				84480FAE0F38AD1900A8CEAA /* NSString+SBJSON.m in Sources */,
+				84480FAF0F38AD1900A8CEAA /* SBJSON.m in Sources */,
+				84480FDF0F38AE7E00A8CEAA /* sqlite3.c in Sources */,
+				14AECA680F596421006123F3 /* UIImage+Resize.m in Sources */,
+				83EF3D330F8CE4D6005B22CB /* WHNetworkAlertView.m in Sources */,
+				83EF3D360F8CE4F7005B22CB /* WHSearchNetworkAlertView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = wikiHow_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Classes/Libraries/FlurryLibWithLocation\"",
+					"\"$(SRCROOT)/Classes/Libraries/FlurryLib\"",
+				);
+				PRODUCT_NAME = wikiHow;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = wikiHow_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Classes/Libraries/FlurryLibWithLocation\"",
+					"\"$(SRCROOT)/Classes/Libraries/FlurryLib\"",
+				);
+				PRODUCT_NAME = wikiHow;
+			};
+			name = Release;
+		};
+		831CB8580F7AA0F3002E2864 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: wikiHow";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-lxml2";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "024A39D7-6A7E-40B5-8C9A-47B7EF25AF82";
+				SDKROOT = iphoneos2.2.1;
+			};
+			name = Distribution;
+		};
+		831CB8590F7AA0F3002E2864 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: wikiHow";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = wikiHow_Prefix.pch;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Classes/Libraries/FlurryLibWithLocation\"",
+					"\"$(SRCROOT)/Classes/Libraries/FlurryLib\"",
+				);
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_NAME = wikiHow;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "024A39D7-6A7E-40B5-8C9A-47B7EF25AF82";
+			};
+			name = Distribution;
+		};
+		84FB0AF80F38BBBB00E3137E /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Keishi Hattori";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				OTHER_LDFLAGS = "-lxml2";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "BE1BFB79-2F9E-432B-B398-823F78801181";
+				SDKROOT = iphoneos2.2.1;
+			};
+			name = AdHoc;
+		};
+		84FB0AF90F38BBBB00E3137E /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = wikiHow_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Classes/Libraries/FlurryLibWithLocation\"",
+					"\"$(SRCROOT)/Classes/Libraries/FlurryLib\"",
+				);
+				PRODUCT_NAME = wikiHow;
+			};
+			name = AdHoc;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Chris Hadley";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-lxml2";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2DEDEC15-D7AB-466E-B68C-805E49321183";
+				SDKROOT = iphoneos2.2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos2.2.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "wikiHow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				831CB8590F7AA0F3002E2864 /* Distribution */,
+				84FB0AF90F38BBBB00E3137E /* AdHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "wikiHow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				831CB8580F7AA0F3002E2864 /* Distribution */,
+				84FB0AF80F38BBBB00E3137E /* AdHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
